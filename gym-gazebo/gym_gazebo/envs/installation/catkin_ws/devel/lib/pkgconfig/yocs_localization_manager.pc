@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: yocs_localization_manager
+Description: Description of yocs_localization_manager
+Version: 0.8.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

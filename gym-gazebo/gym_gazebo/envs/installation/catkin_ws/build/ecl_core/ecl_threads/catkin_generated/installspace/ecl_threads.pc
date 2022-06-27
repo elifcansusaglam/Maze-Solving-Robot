@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: ecl_threads
+Description: Description of ecl_threads
+Version: 0.62.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lecl_threads -lpthread
+Requires: ecl_config ecl_errors ecl_concepts ecl_exceptions ecl_time ecl_utilities

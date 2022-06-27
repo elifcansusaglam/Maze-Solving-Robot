@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: joint_limits_interface
+Description: Description of joint_limits_interface
+Version: 0.18.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: hardware_interface roscpp urdf

@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: ecl_ipc
+Description: Description of ecl_ipc
+Version: 0.62.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lecl_ipc
+Requires: ecl_config ecl_errors ecl_time_lite ecl_exceptions ecl_time

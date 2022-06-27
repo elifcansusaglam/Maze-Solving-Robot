@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: yocs_msgs
+Description: Description of yocs_msgs
+Version: 0.7.0
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure actionlib_msgs std_msgs geometry_msgs std_srvs message_runtime

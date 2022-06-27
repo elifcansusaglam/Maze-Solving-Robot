@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: image_transport
+Description: Description of image_transport
+Version: 1.11.14
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/image_common/image_transport/include
+Libs: -L${prefix}/lib -limage_transport
+Requires: message_filters pluginlib rosconsole roscpp roslib sensor_msgs

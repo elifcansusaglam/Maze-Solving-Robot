@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: kobuki_description
+Description: Description of kobuki_description
+Version: 0.6.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: urdf xacro

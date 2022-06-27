@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: kobuki_dashboard
+Description: Description of kobuki_dashboard
+Version: 0.5.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

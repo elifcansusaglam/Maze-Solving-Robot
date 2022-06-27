@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: kobuki_controller_tutorial
+Description: Description of kobuki_controller_tutorial
+Version: 0.6.8
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/kobuki/kobuki_controller_tutorial/include
+Libs: -L${prefix}/lib -lbump_blink_controller_nodelet
+Requires: roscpp nodelet pluginlib std_msgs kobuki_msgs yocs_controllers

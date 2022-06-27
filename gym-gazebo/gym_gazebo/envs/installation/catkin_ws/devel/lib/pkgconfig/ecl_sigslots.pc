@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: ecl_sigslots
+Description: Description of ecl_sigslots
+Version: 0.62.2
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/ecl_core/ecl_sigslots/include
+Libs: -L${prefix}/lib 
+Requires: ecl_config ecl_threads

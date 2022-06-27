@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/kobuki_core/kobuki_ftdi/include/kobuki_ftdi/scanner.hpp
+vector
+-
+map
+-
+usb.h
+-
+stdint.h
+-
+
+/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/kobuki_core/kobuki_ftdi/src/get_serial_number.cpp
+iostream
+-
+kobuki_ftdi/scanner.hpp
+/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/kobuki_core/kobuki_ftdi/src/kobuki_ftdi/scanner.hpp
+

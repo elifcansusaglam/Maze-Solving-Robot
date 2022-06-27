@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: driver_base
+Description: Description of driver_base
+Version: 1.6.9
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel/include -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/driver_base/driver_base/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

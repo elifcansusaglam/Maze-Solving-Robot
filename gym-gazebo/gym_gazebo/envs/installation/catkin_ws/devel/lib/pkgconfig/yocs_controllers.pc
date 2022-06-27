@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: yocs_controllers
+Description: Description of yocs_controllers
+Version: 0.8.2
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/yujin_ocs/yocs_controllers/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

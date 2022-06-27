@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.9
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/driver_base/timestamp_tools/include
+Libs: -L${prefix}/lib 
+Requires: roslib roscpp roscpp

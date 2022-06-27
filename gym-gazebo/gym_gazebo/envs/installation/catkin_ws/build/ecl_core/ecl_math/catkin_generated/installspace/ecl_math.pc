@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: ecl_math
+Description: Description of ecl_math
+Version: 0.62.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: ecl_type_traits

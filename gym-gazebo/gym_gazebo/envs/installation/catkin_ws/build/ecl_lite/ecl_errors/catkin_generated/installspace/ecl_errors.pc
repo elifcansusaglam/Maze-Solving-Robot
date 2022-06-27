@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: ecl_errors
+Description: Description of ecl_errors
+Version: 0.61.6
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lecl_errors
+Requires: 

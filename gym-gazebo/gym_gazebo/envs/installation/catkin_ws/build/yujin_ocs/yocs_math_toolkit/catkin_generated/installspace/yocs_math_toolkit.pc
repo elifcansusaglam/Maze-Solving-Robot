@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/install
+
+Name: yocs_math_toolkit
+Description: Description of yocs_math_toolkit
+Version: 0.8.2
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lyocs_math_toolkit
+Requires: ecl_build ecl_config ecl_exceptions ecl_formatters ecl_linear_algebra geometry_msgs roscpp tf

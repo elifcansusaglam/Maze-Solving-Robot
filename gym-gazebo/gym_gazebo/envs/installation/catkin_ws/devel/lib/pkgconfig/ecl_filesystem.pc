@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: ecl_filesystem
+Description: Description of ecl_filesystem
+Version: 0.62.2
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/ecl_core/ecl_filesystem/include
+Libs: -L${prefix}/lib -lecl_filesystem
+Requires: ecl_config ecl_errors

@@ -1,0 +1,8 @@
+prefix=/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/devel
+
+Name: ecl_console
+Description: Description of ecl_console
+Version: 0.61.6
+Cflags: -I/home/enes/gym-gazebo/gym_gazebo/envs/installation/catkin_ws/src/ecl_lite/ecl_console/include
+Libs: -L${prefix}/lib 
+Requires: ecl_build ecl_config
